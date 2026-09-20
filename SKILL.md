@@ -49,7 +49,8 @@ Fuera de esas dos, las correcciones de forma se proponen; no se aplican.
 └── assets/          # Imágenes y material de apoyo
 ```
 
-`plantillas/` de este skill tiene el formato de cada artefacto:
+[voz-del-autor.md](voz-del-autor.md) tiene un perfil de escritura de ejemplo.
+`plantillas/` tiene el formato de cada artefacto:
 [AGENTS.md](plantillas/AGENTS.md), [ficha-fuente.md](plantillas/ficha-fuente.md),
 [entrada-ideas.md](plantillas/entrada-ideas.md),
 [borrador-estructural.md](plantillas/borrador-estructural.md).
@@ -130,9 +131,10 @@ Cuando el autor autorice editar el ensayo:
   el archivo completo pierde ediciones del autor y corrompe párrafos.
 - **Verificar longitud.** Si el autor pide adiciones breves, medirlas. Una auditoría
   siempre pide más texto del que el ensayo aguanta.
-- **Respetar la voz.** Antes de tocar prosa, leer el ensayo y registrar en `AGENTS.md` los
-  tics del autor: puntuación que usa y evita, largo de frase, registro, muletillas
-  propias. Imitar, no corregir hacia un español neutro.
+- **Respetar la voz.** Antes de tocar prosa, leer lo que el autor ya escribió y levantar
+  un perfil: puntuación que usa y evita, largo de frase, registro, construcciones propias.
+  Imitar, no corregir hacia un español neutro. [voz-del-autor.md](voz-del-autor.md) es un
+  perfil real, hecho a partir de ensayos publicados, y sirve de modelo del formato.
 - **Revisar lo que se rompe alrededor.** Un cambio en el cuerpo suele dejar inconsistente
   una tabla, un anexo o la recapitulación final. Buscarlos.
 

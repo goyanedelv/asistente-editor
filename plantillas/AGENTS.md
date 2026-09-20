@@ -66,7 +66,9 @@ Si algo sirve a más de un ensayo, se listan separados por coma.
 ## Voz del autor
 
 Registrar acá lo observado en el texto del autor, para que los agentes imiten y no
-corrijan hacia un registro neutro. Se llena leyendo lo que el autor ya escribió.
+corrijan hacia un registro neutro. Se llena leyendo lo que el autor ya escribió, no
+preguntándole. Ver `voz-del-autor.md` del skill para un perfil completo de ejemplo; si
+esta sección crece, moverla a su propio archivo.
 
 - **Puntuación:** <qué usa, qué evita>
 - **Persona y registro:** <primera persona, casual, técnico...>

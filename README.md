@@ -42,6 +42,11 @@ datos. Esconderlo lo hace vulnerable.
 **Bitácora append-only.** `ideas.md` registra qué se cambió, qué no se cambió y por qué.
 Incluye lo que no se pudo verificar. Eso evita reabrir discusiones ya cerradas.
 
+**La voz es del autor.** Antes de tocar prosa, el agente levanta un perfil de escritura
+leyendo lo que el autor ya publicó: qué puntuación usa y cuál evita, cómo remata los
+párrafos, qué construcciones repite. `voz-del-autor.md` es uno real y sirve de modelo.
+Sin eso, toda corrección de estilo arrastra el texto hacia un español neutro de nadie.
+
 **Cirugía, no reescritura.** Las ediciones se aplican por reemplazo exacto de cadena, con
 un script que falla si el fragmento no aparece exactamente una vez. Reescribir el archivo
 completo pierde ediciones del autor.
