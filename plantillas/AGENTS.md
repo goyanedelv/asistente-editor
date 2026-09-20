@@ -1,12 +1,10 @@
 # <Nombre del proyecto>
 
-Plantilla de convenciones para un repositorio de ensayos asistido por agentes.
-Reemplazar lo que está entre `<>` y borrar esta línea.
+Plantilla de convenciones para un repositorio de ensayos asistido por agentes. Reemplazar lo que está entre `<>` y borrar esta línea.
 
 ## Objetivo
 
-El objetivo de este repositorio es asistir la escritura de <N> ensayos a través de la
-recopilación de fuentes, revisión de ideas y correcciones de forma. Estos ensayos son:
+El objetivo de este repositorio es asistir la escritura de <N> ensayos a través de la recopilación de fuentes, revisión de ideas y correcciones de forma. Estos ensayos son:
 
 - <Título del ensayo 1>
 - <Título del ensayo 2>
@@ -33,8 +31,7 @@ Pueden:
 
 No deben:
 
-- Reemplazar al humano en escribir los ensayos. El humano puede solicitar una primera
-  versión, y esa versión va en `ideas.md`.
+- Reemplazar al humano en escribir los ensayos. El humano puede solicitar borradores preliminares en `ideas.md`.
 - Editar `ensayos/` sin autorización explícita para esa tarea.
 
 ## Estructura
@@ -65,10 +62,7 @@ Si algo sirve a más de un ensayo, se listan separados por coma.
 
 ## Voz del autor
 
-Registrar acá lo observado en el texto del autor, para que los agentes imiten y no
-corrijan hacia un registro neutro. Se llena leyendo lo que el autor ya escribió, no
-preguntándole. Ver `voz-del-autor.md` del skill para un perfil completo de ejemplo; si
-esta sección crece, moverla a su propio archivo.
+Registrar acá lo observado en el texto del autor, para que los agentes imiten y no corrijan hacia un registro neutro. Se llena leyendo lo que el autor ya escribió, no preguntándole. Ver `voz-del-autor.md` del skill para un perfil completo de ejemplo; si esta sección crece, moverla a su propio archivo.
 
 - **Puntuación:** <qué usa, qué evita>
 - **Persona y registro:** <primera persona, casual, técnico...>

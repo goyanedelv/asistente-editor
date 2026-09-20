@@ -25,5 +25,4 @@ Dos o tres frases: qué sostiene esta fuente y por qué importa para el ensayo.
 
 ## Lectura crítica
 
-Quién publica esto y con qué interés. Qué metodología usa. Qué mide exactamente y qué no.
-Con qué otra fuente entra en conflicto.
+Quién publica esto y con qué interés. Qué metodología usa. Qué mide exactamente y qué no. Con qué otra fuente entra en conflicto.
