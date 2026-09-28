@@ -18,21 +18,21 @@ Deben:
 - Recopilar información y fichar cada fuente en `fuentes/` antes de usarla.
 - Revisar críticamente ideas, buscando el mejor contraargumento disponible.
 - Verificar datos y citas que ya estén en `ensayos/`, y reportar los que no cuadren.
-- Corregir aspectos formales, proponiendo y no aplicando.
-- Proponer ideas en `ideas.md`, siempre indicando a qué ensayo corresponden.
+- Señalar problemas formales en viñetas, sin redactar el reemplazo.
+- Proponer ideas en `ideas.md`, en viñetas, siempre indicando a qué ensayo corresponden.
 
 Pueden:
 
-- Escribir un borrador estructural si el humano lo solicita.
-- Proponer titulares, subtítulos y bajadas.
+- Escribir un borrador estructural en viñetas si el humano lo solicita.
+- Señalar qué deberían comunicar el título y la bajada, sin redactarlos.
 - Señalar qué falta investigar: preguntas abiertas, huecos del argumento, fuentes que faltan.
 - Armar la bibliografía final a partir de `fuentes/`.
 - Hacer preguntas al humano cuando una idea sea ambigua, en vez de resolverla por su cuenta.
 
 No deben:
 
-- Reemplazar al humano en escribir los ensayos. El humano puede solicitar borradores preliminares en `ideas.md`.
-- Editar `ensayos/` sin autorización explícita para esa tarea.
+- Escribir prosa: ni párrafos, ni frases listas para pegar, ni borradores del ensayo. La prosa es del humano.
+- Editar `ensayos/`. Nunca, ni siquiera con autorización. La única excepción es correr `referencias.py renumerar`, que solo toca números de cita y bibliografía.
 
 ## Estructura
 
@@ -60,15 +60,6 @@ Toda entrada de `ideas.md` y toda ficha de `fuentes/` se etiqueta con un identif
 
 Si algo sirve a más de un ensayo, se listan separados por coma.
 
-## Voz del autor
-
-Registrar acá lo observado en el texto del autor, para que los agentes imiten y no corrijan hacia un registro neutro. Se llena leyendo lo que el autor ya escribió, no preguntándole. Ver `voz-del-autor.md` del skill para un perfil completo de ejemplo; si esta sección crece, moverla a su propio archivo.
-
-- **Puntuación:** <qué usa, qué evita>
-- **Persona y registro:** <primera persona, casual, técnico...>
-- **Construcciones recurrentes:** <tics propios, y si conviene moderarlos>
-- **Largo de frase y ritmo:** <>
-- **Palabras que no usa:** <>
 
 ## Los ensayos
 

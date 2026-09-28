@@ -19,7 +19,7 @@ El autor escribe. El agente hace que lo escrito aguante una lectura adversarial.
 
 ## Qué hace distinto
 
-**Territorios separados.** `ensayos/` es del humano. El agente escribe en `ideas.md`, `fuentes/` y `borradores/`. Puede editar el ensayo solo con autorización explícita para esa tarea, y esa autorización no se extiende a la siguiente.
+**Territorios separados.** `ensayos/` es exclusivamente del humano. El agente escribe en `ideas.md`, `fuentes/` y `borradores/`, y no edita el ensayo nunca, ni siquiera con autorización. La única excepción es mecánica: renumerar las citas.
 
 **La objeción es de primera clase.** Contradecir la tesis del autor es trabajo esperado, no una molestia. El skill pide buscar el mejor contraargumento disponible, no el más fácil de derribar. Las fuentes que contradicen el ensayo se fichan igual, y son las más valiosas.
 
@@ -27,9 +27,7 @@ El autor escribe. El agente hace que lo escrito aguante una lectura adversarial.
 
 **Bitácora append-only.** `ideas.md` registra qué se cambió, qué no se cambió y por qué. Incluye lo que no se pudo verificar. Eso evita reabrir discusiones ya cerradas.
 
-**La voz es del autor.** Antes de tocar prosa, el agente levanta un perfil de escritura leyendo lo que el autor ya publicó: qué puntuación usa y cuál evita, cómo remata los párrafos, qué construcciones repite. `voz-del-autor.md` es uno real y sirve de modelo. Sin eso, toda corrección de estilo arrastra el texto hacia un español neutro de nadie.
-
-**Cirugía, no reescritura.** Las ediciones se aplican por reemplazo exacto de cadena, con un script que falla si el fragmento no aparece exactamente una vez. Reescribir el archivo completo pierde ediciones del autor.
+**La prosa es humana.** Todo lo que el agente propone (ideas, estructura, objeciones, correcciones) va en viñetas. Ni párrafos sugeridos ni frases listas para pegar: el autor convierte los puntos en texto con sus palabras. Una corrección dice dónde está el problema y qué tiene que lograr el arreglo, nunca cómo redactarlo.
 
 ## Instalación
 
@@ -84,7 +82,7 @@ tokens sin numerar    : ninguno
 OK
 ```
 
-Para agregar citas a un ensayo ya numerado, se inserta en el cuerpo un token alfabético y su entrada en un JSON:
+`verificar` solo lee. `renumerar` es lo único que el agente escribe en un ensayo, y solo toca números y bibliografía. Para agregar citas a un ensayo ya numerado, se inserta en el cuerpo un token alfabético y su entrada en un JSON:
 
 ```bash
 echo '{"MILLER": "Miller, Chris. *Chip War*. Scribner, 2022."}' > nuevas.json

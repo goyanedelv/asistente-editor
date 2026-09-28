@@ -1,12 +1,14 @@
 ## [id-ensayo] Título breve de la idea
 
 - **Fecha:** 2026-09-20
-- **Tipo:** idea | párrafo | esquema | objeción | pregunta abierta
+- **Tipo:** idea | esquema | objeción | pregunta abierta
 - **Estado:** propuesta
 - **Fuentes:** [fuentes/una-ficha.md](fuentes/una-ficha.md)
 
-Cuerpo de la idea. Si es una propuesta de párrafo, va en cita:
+Cuerpo de la idea, siempre en viñetas y nunca en prosa:
 
-> Texto del párrafo propuesto, listo para que el humano lo tome, lo reescriba o lo descarte.
+- Afirmación central, en una línea.
+- Qué la sostiene (dato, fuente, razonamiento).
+- Qué la amenaza (objeción, dato en contra).
 
 **Por qué:** una o dos frases sobre qué aporta al ensayo y dónde encajaría.
